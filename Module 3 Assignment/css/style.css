@@ -16,11 +16,11 @@ body {
     border-color: white;}
     .icon-bar {
         background-color: white;}
-.navbar-collapse {
+#bs-example-navbar-collapse-1 {
     display: none;}
-@media(max-width: 1200px)
-    {    .navbar-collapse {
-        display: inline-block;}}
+@media(min-width: 1200px)
+    {    #bs-example-navbar-collapse-1 {
+        display: none;}}
 
 #title {
     text-align: center;
