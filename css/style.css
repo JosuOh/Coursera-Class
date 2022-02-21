@@ -1,76 +1,39 @@
-* {
-   font-family:Arial, Helvetica, sans-serif;
-
-}
-
 body {
-    font-size: 20px;
+    background-color:cornsilk;
 }
 
-header {
-    font-size: 175%;
+.navbar {
+    background-color: tan;
 }
-p {
-    width: 80%;
-    padding: 0 0 0 40px;
-}
-.sec {
-    position: relative;
-    font-size: 125%;
-    border: 1px black solid;
-    background-color: rgb(137, 128, 156);
-    padding: 30px 0 0;
-    width: 25%;
-    float: left;
-    margin: 10px;
-}
-.row {
-    width: 100%;
-}
-.col-lg-4 {
-    width: 31%;
-}
-.col-lg-12 {
-    width: 94%;
+.nav li a{
+    color: black;
 }
 
-
-/*Tablet View*/
-@media (min-width:768px) and (max-width:991px) {
-    .col-md-6 {
-        width: 46%;
-    }
-    .col-md-12 {
-        width: 100%;
-    }
+.nav>li {
+    text-align: center;
 }
-/*Mobile view*/
-@media (max-width:767px) {
-    .sec {
-        width: 100%;
-    }
+.navbar-toggle {
+    border-color: white;}
+    .icon-bar {
+        background-color: white;}
+#title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0 30px 0;
 }
 
-.r-corner {
-    position: absolute; 
-    font-size: 100%;
-    right: 0;
-    top:0;
-    border: 1px black solid;}
-    #step1 {
-        background-color:cadetblue;}
-    #step2 {
-        background-color: darkorange;}
-    #step3 {
-        background-color: firebrick;}
-.first {
-    background-color: blue;
+#menu-body {
+    background-color: rgba(181, 151, 101, 12);
+    font-size: 22px;
+    text-align: left;
+    width: 85vw;
+    margin:auto;
 }
-.second {
-    background-color: aquamarine;
+#subtitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0 20px 0;
 }
-.third {
-    background-color: bisque;
-}
-
-
