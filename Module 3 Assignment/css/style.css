@@ -1,0 +1,35 @@
+body {
+    background-color:cornsilk;
+}
+
+.navbar {
+    background-color: tan;
+}
+.nav>li {
+    text-align: center;
+}
+.navbar-toggle {
+    border-color: white;}
+    .icon-bar {
+        background-color: white;}
+#title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0 30px 0;
+}
+
+#menu-body {
+    background-color: rgba(181, 151, 101, 12);
+    font-size: 22px;
+    text-align: left;
+    width: 85vw;
+    margin:auto;
+}
+#subtitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0 20px 0;
+}
