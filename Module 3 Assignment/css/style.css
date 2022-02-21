@@ -16,6 +16,12 @@ body {
     border-color: white;}
     .icon-bar {
         background-color: white;}
+.navbar-collapse {
+    display: none;}
+@media(max-width: 1200px)
+    {    .navbar-collapse {
+        display: inline-block;}}
+
 #title {
     text-align: center;
     font-size: 32px;
@@ -27,7 +33,7 @@ body {
     background-color: rgba(181, 151, 101, 12);
     font-size: 22px;
     text-align: left;
-    width: 85vw;
+
     margin:auto;
 }
 #subtitle {
