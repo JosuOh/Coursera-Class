@@ -5,6 +5,10 @@ body {
 .navbar {
     background-color: tan;
 }
+.nav li a{
+    color: black;
+}
+
 .nav>li {
     text-align: center;
 }
